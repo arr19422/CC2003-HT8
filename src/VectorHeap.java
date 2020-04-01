@@ -104,7 +104,7 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E> {
 
     @Override
     public int size() {
-        return 0;
+        return data.size();
     }
 
     @Override
