@@ -1,3 +1,9 @@
+/*
+ * UNIVERSIDAD DEL VALLE DE GUATEMALA
+ * DIEGO DE JESÚS ARREDONDO TURCIOS
+ * 19422
+ * CC2003 SECCION 30
+ * */
 public interface PriorityQueue<E extends Comparable<E>> {
 	
 public E getFirst();

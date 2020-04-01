@@ -1,3 +1,9 @@
+/*
+ * UNIVERSIDAD DEL VALLE DE GUATEMALA
+ * DIEGO DE JESÚS ARREDONDO TURCIOS
+ * 19422
+ * CC2003 SECCION 30
+ * */
 import java.io.File;
 import java.util.PriorityQueue;
 import java.util.Scanner;

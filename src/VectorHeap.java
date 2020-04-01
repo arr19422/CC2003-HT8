@@ -1,3 +1,9 @@
+/*
+ * UNIVERSIDAD DEL VALLE DE GUATEMALA
+ * DIEGO DE JESÚS ARREDONDO TURCIOS
+ * 19422
+ * CC2003 SECCION 30
+ * */
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Vector;
@@ -80,8 +86,6 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E> {
     Vector<E> pacients = new Vector<>();
 
     public E remove()
-    // pre: !isEmpty()
-    // post: returns and removes minimum value from queue
     {
         E minVal = getFirst();
         data.set(0, data.get(data.size() - 1));
